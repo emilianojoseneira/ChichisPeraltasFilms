@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  background-color: rgb(226, 122, 122);
+  margin: 2% auto;
+}
+header h3 {
+  color: black;
+  font-size: 40px;
+}
+header h6 {
+  color: black;
+}
+header h3 {
+  animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+header .navbar li {
+  text-indent: 15px;
+}
+header .navbar li a {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+  font-size: 20px;
+  box-shadow: 2px 0 1, 5px 3px;
+  padding-right: 50px;
+}
+header .navbar li :hover {
+  color: grey;
+}
+
+main .location h1 {
+font-size: 25px;
+margin-left: 15px;
+margin-top: 150px;
+margin-bottom: 50px;
+}
+main .location h2 {
+  font-size: 30px;
+  margin-left: 10px;
+
+}
+main .location  p {
+  margin-left: 30px;
+  font-size: 25px;
+  margin-right: 200px;
+}
+main .location h3{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.location img {
+  margin-left: 15px;
+}
